@@ -1,11 +1,7 @@
 <<<<<<< HEAD
 # codemix-vanilla-react
-Template for project creation of React inside CodeMix
-
-## Contents
-
-The template project is just an example Hello World that guide you through the use of React with the Expressjs framework to build a very simple web application that display the Hello World!!! Greeting
-=======
-# todoChallengeReact
-To Do list React
->>>>>>> branch 'master' of https://github.com/rodrigomdomingos/todoChallengeReact.git
+Esse projeto em React utiliza o projeto JSF: https://github.com/rodrigomdomingos/todoChallenge.
+A implementação foi feita para inserção no banco de dados, listagem das tasks, e a utilização de react-bootstrap.
+Consumindo do projeto JSF, esse projeto React utiliza as urls:
+O '/getListJSON' retorna uma lista de tasks com id e titulo.
+e o '/adicionar?titulo=my.title' adiciona no banco de dados.
